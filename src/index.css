@@ -8,33 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Educational theme - bright, safe, engaging colors for students */
+    --background: 210 100% 97%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Safety blue - trustworthy and calming */
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Soft green - nature and safety */
+    --secondary: 142 76% 45%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 15% 60%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Warning orange - attention and caution */
+    --accent: 32 95% 55%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Emergency red - clear danger indicator */
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 214 32% 88%;
+    --input: 214 32% 88%;
+    --ring: 210 100% 50%;
+
+    /* Educational gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 50%), hsl(142 76% 45%));
+    --gradient-natural: linear-gradient(135deg, hsl(142 76% 45%), hsl(82 84% 55%));
+    --gradient-manmade: linear-gradient(135deg, hsl(32 95% 55%), hsl(0 84% 55%));
+    --gradient-personal: linear-gradient(135deg, hsl(282 85% 60%), hsl(210 100% 50%));
+    
+    /* Interactive shadows */
+    --shadow-card: 0 4px 12px hsl(210 100% 50% / 0.1);
+    --shadow-hover: 0 8px 25px hsl(210 100% 50% / 0.15);
+    --shadow-modal: 0 25px 50px hsl(215 25% 15% / 0.25);
 
     --radius: 0.5rem;
 
